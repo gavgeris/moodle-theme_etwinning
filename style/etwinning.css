@@ -1,0 +1,281 @@
+@media (min-width: 768px) {
+    .pagelayout-standard #page.drawers .main-inner, body.limitedwidth #page.drawers .main-inner {
+        max-width: 1100px;
+    }
+    .login-container {
+        max-width: 1100px;
+        border-radius: 0.5rem;
+    }
+
+}
+.activityicon {
+    filter:none !important;
+}
+.activityiconcontainer.content {
+    background-color: transparent;
+}
+
+img.activityicon {
+    height: 50px !important;
+    width:auto !important;
+}
+
+
+/*#page-mod-page-view.course-4266 div[role=main],*/
+/*#page-mod-assign-view.course-4266 div[role=main],*/
+/*#page-mod-book-view.course-4266 div[role=main],*/
+/*#page-mod-quiz-view.course-4266 div[role=main],*/
+/*#page-mod-questionnaire-view.course-4266 div[role=main]*/
+/*{*/
+/*    !*max-width: 860px;*!*/
+/*    margin: 0 auto;*/
+/*}*/
+
+
+
+/**************************************************/
+/*** Login Page customization for ΠΣΔ ********/
+/**************************************************/
+
+@media (min-width: 768px) {
+    #page-login-index .col-md-5 {
+        flex: 0 0 99.6666666667%;
+        max-width: 99.6666666667%;
+    }
+}
+
+#page-login-index form#login::before {
+    content: "Μόνο για χρήστες ΕΚΤΟΣ Π.Σ.Δ.";
+    font-size: 1.5rem;
+    color:#ff5722;
+}
+
+#page-login-index h6 {
+    font-size: 1.5rem;
+    color:#ff5722;
+}
+#page-login-index div.potentialidp {
+    border: 1px solid #113d50;
+}
+
+#page-login-index div.potentialidp img {
+    width:100%;
+    max-width: 300px;
+    height: 50%;
+}
+
+
+/**************************************************/
+/***************** Custom styles ***************/
+/**************************************************/
+
+/*** Επικεφαλίδες σκοπός, στόχοι, παραδοτέα, οδηγίες, βίντεο κτλ ***/
+div.purpose {
+    background: url("/theme/etwinning/pix/why.png") no-repeat 15px top;
+    padding: 15px 5px 15px 75px;
+}
+
+div.target {
+    background: url("/theme/etwinning/pix/target.png") no-repeat 15px top;
+    padding: 15px 5px 15px 75px;
+}
+
+div.deliverable {
+    background: url("/theme/etwinning/pix/deliverable.png") no-repeat 8px top;
+    padding: 15px 10px 15px 75px;
+}
+
+div.instructions {
+    background: url("/theme/etwinning/pix/instructions.png") no-repeat 8px top;
+    padding: 15px 10px 15px 75px;
+}
+
+div.video {
+    background: url("/theme/etwinning/pix/video.png") no-repeat 8px top;
+    padding: 15px 10px 15px 75px;
+}
+
+div.teacher{
+    background: url("/theme/etwinning/pix/teacher.png") no-repeat 8px top;
+    padding: 15px 10px 15px 75px;
+}
+
+div.reference {
+    background: url("/theme/etwinning/pix/reference.png") no-repeat 8px top;
+    padding: 15px 10px 15px 75px;
+}
+
+p.heading {
+    font-family: 'Fira Sans', sans-serif;
+    font-size : 1.2rem;
+    background-color: #EAE7E7;
+    line-height: 50px;
+    margin-top: -15px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+
+/*** Επικεφαλίδες σκοπός, στόχοι, παραδοτέα, οδηγίες, βίντεο κτλ ***/
+/*** Experimental !!! ***/
+
+.flex-section-heading {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+
+    margin-bottom: 1rem;
+}
+
+.flex-section-heading-item:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+
+.flex-section-heading-item:nth-child(2) {
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+
+    background-color: #eae7e7;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-left: 15px;
+    border-bottom: 2px solid #D2CCCC;
+    border-radius: 2px;
+}
+
+
+/*** Σκιά και περίγραμμα εικόνας στις σελίδες, δραστηριότητες και βιβλία ***/
+#page-mod-assign-view div[role=main] .img-responsive ,
+#page-mod-assign-view div[role=main] .img-fluid ,
+#page-mod-page-view div[role=main] .img-responsive,
+#page-mod-page-view div[role=main] .img-fluid,
+#page-mod-book-view div[role=main] .img-responsive,
+#page-mod-book-view div[role=main] .img-fluid {
+    border: 1px solid gray;
+    box-shadow: 0 .5rem 1rem rgba(128, 128, 128, 0.39) !important
+}
+
+
+/*** Λίστα παραδοτέα ***/
+ul.deliverable li {
+    background: url("/theme/etwinning/pix/unchecked.png") no-repeat 8px 9px;
+    line-height: 40px;
+    padding-left: 40px;
+}
+
+ul.deliverable  {
+    list-style : none;
+}
+
+ul.deliverable  li.checked{
+    /*  list-style-image: url("/theme/aardvark/pix/checked.png");*/
+    background: url("/theme/etwinning/pix/checked.png") no-repeat 8px 9px;
+    line-height: 40px;
+    padding-left: 40px;
+}
+
+
+/*** Κλάση για block κώδικα ***/
+.console {
+    font-family:Courier;
+    color: #CCCCCC;
+    background: #000000;
+    border: 3px double #CCCCCC;
+    padding: 10px;
+}
+
+/*** Notification boxes ***/
+.my-notify-info,
+.my-notify-success,
+.my-notify-warning,
+.my-notify-error {
+    padding:10px;
+    margin:10px 0;
+}
+.my-notify-info:before, .my-notify-success:before, .my-notify-warning:before, .my-notify-error:before {
+    font-family:FontAwesome;
+    font-style:normal;
+    font-weight:400;
+    font-size: 2em;
+    speak:none;
+    display:inline-block;
+    text-decoration:inherit;
+    width:1em;
+    margin-right:.2em;
+    text-align:center;
+    font-variant:normal;
+    text-transform:none;
+    line-height:1em;
+    margin-left:.2em;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale
+}
+.my-notify-info:before {
+    content:"\f05a";
+}
+.my-notify-success:before {
+    content:'\f00c';
+}
+.my-notify-warning:before {
+    content:'\f071';
+}
+.my-notify-error:before {
+    content:'\f057';
+}
+.my-notify-info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.my-notify-success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.my-notify-warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.my-notify-error {
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+
+/*** Επισήμανση σε κείμενο, που χρησιμοποιείται? ***/
+span.green {
+    background: #5EA226;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}
+
+span.blue {
+    background: #5178D0;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em;
+}

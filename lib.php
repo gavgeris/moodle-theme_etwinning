@@ -50,9 +50,10 @@ function theme_etwinning_get_main_scss_content($theme) {
 //    $pre = file_get_contents($CFG->dirroot . '/theme/etwinning/scss/pre.scss');
     $pre = "";
     // Post CSS - this is loaded AFTER the main scss but before the extra scss from the setting.
-    $post = "";
+    $post = file_get_contents($CFG->dirroot . '/theme/etwinning/style/etwinning.css');
+    $post .= file_get_contents($CFG->dirroot . '/theme/etwinning/style/notebook.css');
     // Combine them together.
-    return $pre . "\n" . $scss . "\n" . $post;
+    return $pre  . "\n" . $scss . "\n" . $post;
 }
 
 function theme_etwinning_get_precompiled_css() {
