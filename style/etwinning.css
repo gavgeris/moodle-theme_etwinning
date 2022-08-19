@@ -130,6 +130,10 @@ body#page-course-view-remuiformat .remui-format-card.all-section-format .section
 i.fa-arrows {
     z-index: 1;
 }
+/* Edit Controls on Top */
+.section .activity .commands {
+    z-index: 99;
+}
 
 /* *** */
 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a6cc521d-d6dc-4d75-926a-a6c7fd4cfea6" name="etwinning" url="https://seminars.etwinning.gr">
+        <fileTransfer rootFolder="/var/www/html" accessType="SFTP" host="seminars.etwinning.gr" port="22" sshConfigId="50ddda99-0412-4cf2-846d-8646e2391c96" sshConfig="moodleuser@seminars.etwinning.gr:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
