@@ -1,3 +1,9 @@
+* {
+    -webkit-print-color-adjust: exact !important;   /* Chrome, Safari 6 – 15.3, Edge */
+    color-adjust: exact !important;                 /* Firefox 48 – 96 */
+    print-color-adjust: exact !important;           /* Firefox 97+, Safari 15.4+ */
+}
+
 @media (min-width: 768px) {
     .pagelayout-standard #page.drawers .main-inner, body.limitedwidth #page.drawers .main-inner {
         max-width: 1100px;
