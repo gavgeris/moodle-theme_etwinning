@@ -142,7 +142,8 @@ h2.sectionname
 #content div.purpose,
 #content div.teacher,
 #content div.video,
-#content div.reference
+#content div.reference,
+#content div.deliverable
 {
     padding:0px;
     padding-left: 82px;

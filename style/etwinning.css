@@ -241,37 +241,30 @@ i.fa-arrows {
 /*** Επικεφαλίδες σκοπός, στόχοι, παραδοτέα, οδηγίες, βίντεο κτλ ***/
 div.purpose {
     background: url("/theme/etwinning/pix/why.png") no-repeat 15px top;
-    padding: 15px 5px 15px 75px;
 }
 
 div.target {
     background: url("/theme/etwinning/pix/target.png") no-repeat 15px top;
-    padding: 15px 5px 15px 75px;
 }
 
 div.deliverable {
     background: url("/theme/etwinning/pix/deliverable.png") no-repeat 8px top;
-    padding: 15px 10px 15px 75px;
 }
 
 div.instructions {
     background: url("/theme/etwinning/pix/instructions.png") no-repeat 8px top;
-    padding: 15px 10px 15px 75px;
 }
 
 div.video {
     background: url("/theme/etwinning/pix/video.png") no-repeat 8px top;
-    padding: 15px 10px 15px 75px;
 }
 
 div.teacher{
     background: url("/theme/etwinning/pix/teacher.png") no-repeat 8px top;
-    padding: 15px 10px 15px 75px;
 }
 
 div.reference {
     background: url("/theme/etwinning/pix/reference.png") no-repeat 8px top;
-    padding: 15px 10px 15px 75px;
 }
 
 p.heading {
