@@ -116,6 +116,11 @@ body#page-course-view-remuiformat .remui-format-card.all-section-format .section
     background-position-y: center;
 }
 
+body#page-course-view-remuiformat .remui-format-card.all-section-format .section .single-card .summary {
+    text-align: right;
+    color: #323232;
+}
+
 body#page-course-view-remuiformat .remui-format-card.all-section-format .section .single-card .section-activities-summary
 ,.wdm-section-summary  {
     display: none;
