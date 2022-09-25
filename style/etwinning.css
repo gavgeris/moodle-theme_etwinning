@@ -27,6 +27,10 @@ img.activityicon {
 }
 
 /* RemUI Section Page Stylesheet */
+body#page-course-view-remuiformat .remui-format-card.all-section-format #section-0 .section-details .generaldetails {
+    width:100%;
+}
+
 body#page-course-view-remuiformat .remui-format-card.all-section-format .section .single-card {
     box-shadow: 0 0 8px #0b0b0b;
 }
@@ -278,46 +282,6 @@ p.heading {
     margin-top: -15px;
     font-weight: bold;
     padding-left: 10px;
-}
-
-
-/*** Επικεφαλίδες σκοπός, στόχοι, παραδοτέα, οδηγίες, βίντεο κτλ ***/
-/*** Experimental !!! ***/
-
-.flex-section-heading {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: normal;
-    align-items: normal;
-    align-content: normal;
-
-    margin-bottom: 1rem;
-}
-
-.flex-section-heading-item:nth-child(1) {
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-self: auto;
-    order: 0;
-}
-
-.flex-section-heading-item:nth-child(2) {
-    display: block;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: auto;
-    align-self: auto;
-    order: 0;
-
-    background-color: #eae7e7;
-    padding-top: 10px;
-    padding-left: 15px;
-    margin-left: 15px;
-    border-bottom: 2px solid #D2CCCC;
-    border-radius: 2px;
 }
 
 
