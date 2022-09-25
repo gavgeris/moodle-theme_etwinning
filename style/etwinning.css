@@ -99,6 +99,33 @@ body#page-course-view-remuiformat .remui-format-card.single-section-format .acti
 .remui-format-card.all-section-format li#section-9 .single-card {
     background-color: #D8000C !important;
 }
+.remui-format-card.all-section-format  li#section-10 .single-card {
+    background-color: #4F8A10 !important;
+}
+.remui-format-card.all-section-format li#section-11 .single-card {
+    background-color: #ef8c22 !important;
+}
+.remui-format-card.all-section-format li#section-12 .single-card {
+    background-color: #113d50 !important;
+}
+.remui-format-card.all-section-format li#section-13 .single-card {
+    background-color: #000000 !important;
+}
+.remui-format-card.all-section-format li#section-14 .single-card {
+    background-color: #DFF2BF !important;
+}
+.remui-format-card.all-section-format li#section-15 .single-card {
+    background-color: #9F6000 !important;
+}
+.remui-format-card.all-section-format li#section-16 .single-card {
+    background-color: blue !important;
+}
+.remui-format-card.all-section-format li#section-17 .single-card {
+    background-color: #5178D0 !important;
+}
+.remui-format-card.all-section-format li#section-18 .single-card {
+    background-color: #D8000C !important;
+}
 
 .remui-format-card.all-section-format .single-card {
     background-color: #1414af !important;
