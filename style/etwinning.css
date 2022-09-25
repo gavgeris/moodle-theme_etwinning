@@ -293,7 +293,6 @@ p.heading {
 /*** Λίστα παραδοτέα ***/
 ul.deliverable li {
     background: url("/theme/etwinning/pix/unchecked.png") no-repeat 8px 9px;
-    line-height: 40px;
     padding-left: 40px;
 }
 
@@ -304,7 +303,6 @@ ul.deliverable  {
 ul.deliverable  li.checked{
     /*  list-style-image: url("/theme/aardvark/pix/checked.png");*/
     background: url("/theme/etwinning/pix/checked.png") no-repeat 8px 9px;
-    line-height: 40px;
     padding-left: 40px;
 }
 
