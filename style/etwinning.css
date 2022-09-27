@@ -30,6 +30,10 @@ img.activityicon {
 body#page-course-view-remuiformat .remui-format-card.all-section-format #section-0 .section-details .generaldetails {
     width:100%;
 }
+/* Move icon on general page */
+body#page-course-view-remuiformat .general-section-activities .activity .editing_move {
+    z-index:99;
+}
 
 body#page-course-view-remuiformat .remui-format-card.all-section-format .section .single-card {
     box-shadow: 0 0 8px #0b0b0b;
