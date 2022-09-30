@@ -14,6 +14,15 @@
     }
 
 }
+#page-wrapper #page {
+    background-image: url('../pix/page_bg.jpg');
+}
+
+#region-main {
+    background-color: #fffdfd9e;
+    border-radius: 10px;
+}
+
 /* Module icons */
 .activityicon {
     filter:none !important;
@@ -84,6 +93,13 @@ body#page-course-view-remuiformat .remui-format-card.single-section-format .acti
     height: auto !important;
     width:  100px !important;
     margin: 0px !important;
+}
+
+.activity-item:not(.activityinline) {
+    background-color: white;
+}
+body#page-course-view-remuiformat .remui-format-list.one-section-format .activities-list ul.section .activity {
+    background-color: transparent;
 }
 
 
