@@ -29,7 +29,8 @@
     background-color: white;
 }
 body#page-course-view-remuiformat .remui-format-list.one-section-format .activities-list ul.section .activity,
-body#page-course-view-remuiformat .remui-format-list .sections .section:not(#section-0) .content {
+body#page-course-view-remuiformat .remui-format-list .sections .section:not(#section-0) .content,
+body#page-course-view-remuiformat .remui-format-list.one-section-format .activities-list {
     background-color: transparent;
 }
 
