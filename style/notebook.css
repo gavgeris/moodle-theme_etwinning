@@ -43,6 +43,23 @@
     word-spacing: 1px;
 
 }
+
+@media (max-width: 767px) {
+    #paper {
+        margin: 5px;
+    }
+
+    #paper::before, .etwinning-paper::before {
+        left: 20px;
+    }
+
+    #content, .etwinning-content {
+        padding-left: 26px;
+    }
+}
+
+
+
 #content p,
 #content ul,
 .etwinning-content p,
