@@ -69,7 +69,7 @@
     margin-top: 0px; /* was 2 */
     margin-bottom: 0px;
     line-height: 45px;
-    padding-top:1px;
+    padding-top:0px;
 }
 
 /* ========= HIGHLIGHTING ======= */
@@ -303,6 +303,15 @@ ol.rounded-list {
     position: relative;
     display: inline-block;
     margin:0px;
+
+    /* This ensures that text wll stay between notebook lines when there are images
+     * But we need lightbox to show image on full scale
+    */
+
+    /*height: 405px;*/
+    /*object-fit: contain;*/
+    /*background: #fff;*/
+
     /*z-index: 0;*/
 }
 /* ================= Pencil Underlines ===================== */
