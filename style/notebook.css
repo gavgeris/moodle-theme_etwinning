@@ -28,12 +28,13 @@
 /* styling blue horizontal lines */
 #pattern, .etwinning-pattern {
     height: 100%;
-    background-image: repeating-linear-gradient(white -20px, white 23px, #9bd2f891 25px);
+    /*background-image: repeating-linear-gradient(white -20px, white 23px, #9bd2f891 25px);*/
+    background: repeating-linear-gradient(#108fe891, #fff 3px, #fff 45px, #fff 45px);
 }
 
 /* styling text content */
 #content, .etwinning-content {
-    padding-top: 27px;
+    /*padding-top: 27px;*/
     padding-left: 76px;
     padding-right: 16px;
     line-height: 45px;
@@ -68,6 +69,7 @@
     margin-top: 0px; /* was 2 */
     margin-bottom: 0px;
     line-height: 45px;
+    padding-top:1px;
 }
 
 /* ========= HIGHLIGHTING ======= */
@@ -192,6 +194,7 @@ h2.sectionname
             rgba(255, 224, 0, 0.7) 95%,
             rgba(255, 224, 0, 0.1)
     );
+    padding-top:0px;
 }
 
 /* ========== Counter Lists ================ */
