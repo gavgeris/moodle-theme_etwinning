@@ -6,7 +6,7 @@
             // console.log(h);
             newheight = Math.floor(h/step);
             if (newheight > 0) {
-                jQuery(this).height(newheight * (step+1) - 5);
+                jQuery(this).height(newheight * (step+1));
                 jQuery(this).width('auto');
                 //console.log('newheight:' + (newheight * (step+1) - 5));
             } else {
