@@ -405,7 +405,9 @@ ul.deliverable  li.checked{
     color: #D8000C;
     background-color: #FFBABA;
 }
-
+.alert {
+    padding-bottom: 0px;
+}
 /*** Επισήμανση σε κείμενο, που χρησιμοποιείται? ***/
 span.green {
     background: #5EA226;
