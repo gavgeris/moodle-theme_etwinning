@@ -9,10 +9,11 @@ jQuery( document ).ready(function() {
             jQuery(this).css('height', (newheight+1) * step);
             jQuery(this).css('width','auto');
             // console.log('newheight:' + (newheight+1) * step);
-        } else {
-            jQuery(this).height(step);
-            jQuery(this).width('auto');
-            // console.log('newheight:' + newheight);
         }
+        // else {
+        //     jQuery(this).height(step);
+        //     jQuery(this).width('auto');
+        //     // console.log('newheight:' + newheight);
+        // }
     })
 });
